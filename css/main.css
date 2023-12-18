@@ -33,7 +33,7 @@ img {
 }
 
 .container {
-  width: 1070px;
+  width: 1055px;
   padding: 0 20px;
   margin: 0 auto;
 }
@@ -200,6 +200,7 @@ img {
   display: flex;
   align-items: center;
   justify-content: center;
+  margin-bottom: 160px;
 }
 .content h3 {
   color: #FFF;
