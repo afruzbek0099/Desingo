@@ -152,15 +152,16 @@ img {
 }
 .cart-item-box {
   padding: 32px;
-  border-radius: 15px;
   background: #FDF3F0;
-  width: 320px;
+  width: 350px;
 }
 .cart-item-box h2 {
   color: #E7816B;
   font-size: 20px;
   font-style: normal;
   font-weight: 500;
+  margin-bottom: 16px;
+  text-align: center;
   line-height: 26px;
   letter-spacing: 5px;
 }
@@ -175,7 +176,6 @@ img {
 
 .cart-list {
   display: flex;
-  flex-wrap: wrap;
   gap: 32px;
 }
 
