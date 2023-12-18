@@ -1,1 +1,35 @@
-//  MIXIN YARATILADI
+@mixin sitiBtnD() {
+    padding: 18px 25px;
+    border-radius: 8px;
+    background: #FFF;
+    color: #333136;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    &:active {
+        border-radius: 8px;
+        background: #FFAD9B;
+    }
+}
+
+@mixin sitiBtnL() {
+    padding: 18px 25px;
+    border-radius: 8px;
+    background: #E7816B;
+    color: #333136;
+    font-size: 15px;
+    font-style: normal;
+    font-weight: 500;
+    line-height: normal;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+
+    &:active {
+        border-radius: 8px;
+        background: #FFAD9B;
+    }
+}
