@@ -151,6 +151,7 @@ img {
     background-repeat: no-repeat;
   }
 }
+<<<<<<< HEAD
 .hero {
   padding: 145px 0 145px 95px;
   border-radius: 15px;
@@ -194,6 +195,36 @@ img {
 .hero a:active {
   border-radius: 8px;
   background: #FFAD9B;
+=======
+.site-hero-top {
+  padding: 64px 0 38px 0;
+  text-align: center;
+  margin-bottom: 160px;
+  border-radius: 15px;
+  background: #E7816B;
+  background-image: url("../../assets/svg/site-hero-top-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.site-hero-top h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Jost";
+  color: #FFF;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.site-hero-top p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Jost";
+  width: 350px;
+  margin: 0 auto;
+  color: #FFF;
+  line-height: 26px;
+>>>>>>> fdcf9910bc32d0a9c0dce18992d17e318cde366f
 }
 
 .footer {
