@@ -1,3 +1,4 @@
+@import url("https://fonts.googleapis.com/css2?family=Jost:wght@400;500&display=swap");
 *::before,
 *::after,
 * {
@@ -7,7 +8,7 @@
 }
 
 body {
-  font-family: sans-serif;
+  font-family: "Jost", sans-serif;
 }
 
 ul {
@@ -151,6 +152,81 @@ img {
     background-repeat: no-repeat;
   }
 }
+.hero {
+  padding: 145px 0 145px 95px;
+  border-radius: 15px;
+  background: #E7816B;
+  background-image: url("../../assets/img/home-hero.png");
+  background-repeat: no-repeat;
+  margin-bottom: 160px;
+}
+.hero h1 {
+  max-width: 100%;
+  width: 540px;
+  color: #FFF;
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  margin-bottom: 11px;
+}
+.hero p {
+  max-width: 100%;
+  width: 445px;
+  color: #FFF;
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 26px;
+  margin-bottom: 40px;
+}
+.hero a {
+  padding: 18px 25px;
+  border-radius: 8px;
+  background: #FFF;
+  color: #333136;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 1px;
+  text-transform: uppercase;
+}
+.hero a:active {
+  border-radius: 8px;
+  background: #FFAD9B;
+}
+
+.site-hero-top {
+  padding: 64px 0 38px 0;
+  text-align: center;
+  margin-bottom: 160px;
+  border-radius: 15px;
+  background: #E7816B;
+  background-image: url("../../assets/svg/site-hero-top-bg.svg");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.site-hero-top h1 {
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  font-family: "Jost";
+  color: #FFF;
+  line-height: 48px;
+  margin-bottom: 24px;
+}
+.site-hero-top p {
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  font-family: "Jost";
+  width: 350px;
+  margin: 0 auto;
+  color: #FFF;
+  line-height: 26px;
+}
+
 .card-list {
   display: flex;
   gap: 0 31px;
