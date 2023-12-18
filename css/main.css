@@ -151,12 +151,11 @@ img {
     background-repeat: no-repeat;
   }
 }
-<<<<<<< HEAD
 .hero {
   padding: 145px 0 145px 95px;
   border-radius: 15px;
   background: #E7816B;
-  background-image: url("../../assets/img/home-hero.png");
+  background-image: url("../assets/img/home-hero.png");
   background-repeat: no-repeat;
   margin-bottom: 160px;
 }
@@ -195,7 +194,74 @@ img {
 .hero a:active {
   border-radius: 8px;
   background: #FFAD9B;
-=======
+}
+
+.content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.content h3 {
+  color: #FFF;
+  font-size: 40px;
+  font-style: normal;
+  font-weight: 300;
+  line-height: 48px;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+  margin-bottom: 24px;
+}
+.content a {
+  color: #FFF;
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: normal;
+  letter-spacing: 5px;
+  text-transform: uppercase;
+}
+.content-box-1 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 541px;
+  height: 640px;
+  border-radius: 15px;
+  background: #000;
+  background-image: url("../../assets/img/home-content_1.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-right: 30px;
+}
+.content-box-2 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 541px;
+  height: 308px;
+  border-radius: 15px;
+  background: #000;
+  background-image: url("../../assets/img/home-content_2.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+  margin-bottom: 24px;
+}
+.content-box-3 {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  width: 541px;
+  height: 308px;
+  border-radius: 15px;
+  background: #000;
+  background-image: url("../../assets/img/home-content_3.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+
 .site-hero-top {
   padding: 64px 0 38px 0;
   text-align: center;
@@ -224,7 +290,6 @@ img {
   margin: 0 auto;
   color: #FFF;
   line-height: 26px;
->>>>>>> fdcf9910bc32d0a9c0dce18992d17e318cde366f
 }
 
 .footer {
