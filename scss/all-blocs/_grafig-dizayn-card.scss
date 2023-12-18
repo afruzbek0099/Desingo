@@ -1,9 +1,12 @@
 .card {
 
+    margin-bottom: 160px;
+
     &-list {
         display: flex;
-        gap: 0 31px;
+        gap: 0 30px;
         align-items: center;
+        justify-content: center;
     }
 
     &-item {
@@ -20,6 +23,8 @@
     }
 
     img {
+        border-top-left-radius: 15px;
+        border-top-right-radius: 15px;
         background: #34B7A2;
     }
 
