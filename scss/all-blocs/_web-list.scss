@@ -15,6 +15,11 @@
         border-radius: 15px;
         background: #FDF3F0;
 
+        &-a:active {
+            background: #E7816B;
+            transition: all 1 ease;
+        }
+
         &-box {
             padding: 32px;
         }
@@ -30,18 +35,28 @@
             margin-bottom: 10px;
 
         }
- &-box>p {
+
+        &-box>h2:active {
+            color: #FFF; 
+        }
+
+        &-box>p {
             color: #333136;
             text-align: center;
             font-size: 16px;
             font-style: normal;
             font-weight: 400;
             line-height: 26px;
- }
- }
- &-item>img {
+        }
+
+        &-box>p:active {
+            color: #FFF;
+        }
+    }
+
+    &-item>img {
         border-top-right-radius: 15px;
         border-top-left-radius: 15px;
         width: 350px;
-}
+    }
 }
