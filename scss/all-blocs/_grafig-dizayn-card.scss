@@ -1,12 +1,11 @@
 .card {
 
-    margin-bottom: 160px;
-
     &-list {
         display: flex;
         gap: 0 30px;
         align-items: center;
         justify-content: center;
+        margin-bottom: 160px;
     }
 
     &-item {

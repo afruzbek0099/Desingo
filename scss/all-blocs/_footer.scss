@@ -2,6 +2,7 @@
     position: relative;
     padding: 144px 0px 72px 0px;
     background: #1d1c1e;
+    margin-top: 380px;
 
     // FOOTER-TALK
     .footer-talk {
@@ -35,6 +36,21 @@
             line-height: 26px;
             color: #ffffff;
         }
+
+        .button--talk {
+            color: #333136;
+            font-family: Jost;
+            font-size: 15px;
+            font-style: normal;
+            font-weight: 500;
+            line-height: normal;
+            letter-spacing: 1px;
+            text-transform: uppercase;
+            padding: 17px 18px;
+            border-radius: 8px;
+            background: #FFF;
+            border: transparent;
+        }
     }
 
     // FOOTER-BOX
@@ -59,7 +75,7 @@
         list-style: none;
     }
 
-    .footer-nav__item + .footer-nav__item {
+    .footer-nav__item+.footer-nav__item {
         margin-left: 42px;
     }
 
@@ -102,7 +118,7 @@
         opacity: 0.5;
     }
 
-    .footer__desc + .footer__desc {
+    .footer__desc+.footer__desc {
         margin-left: 30px;
     }
 
@@ -114,7 +130,7 @@
         list-style-type: none;
     }
 
-    .footer-list__item + .footer-list__item {
+    .footer-list__item+.footer-list__item {
         margin-left: 16px;
     }
 
