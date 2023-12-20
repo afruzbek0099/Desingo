@@ -14,11 +14,12 @@
         height: 478px;
         border-radius: 15px;
         background: #FDF3F0;
+        transition: all 1 ease;
 
-        &-a:active {
-            background: #E7816B;
-            transition: all 1 ease;
-        }
+        // &-a:active {
+        //     background: #E7816B;
+        //     transition: all 1 ease;
+        // }
 
         &-box {
             padding: 32px;
@@ -36,9 +37,9 @@
 
         }
 
-        &-box>h2:active {
-            color: #FFF; 
-        }
+        // &-box>h2:active {
+        //     color: #FFF;
+        // }
 
         &-box>p {
             color: #333136;
@@ -49,8 +50,20 @@
             line-height: 26px;
         }
 
-        &-box>p:active {
-            color: #FFF;
+        // &-box>p:active {
+        //     color: #FFF;
+        // }
+
+        &:active{
+            background: #E7816B;
+            
+            h2 {
+                color:white;
+            }
+
+            p {
+                color: white;
+            }
         }
     }
 
